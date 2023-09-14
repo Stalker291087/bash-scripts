@@ -11,7 +11,7 @@
 
 date=$( date )
 no_gzip_files=$( ls -al /home/ec2-user/automation/log_historical | grep *.gzip | wc -l )
-slack_webhook='https://hooks.slack.com/services/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'
+slack_webhook='<>'
 
 echo "*-*-*-*-*-*-*-*-*-*-*-*-*-*" >> /home/ec2-user/automation/logs/log_rotation.log
 echo "-- Script ran at ${date} --" >> /home/ec2-user/automation/logs/log_rotation.log
